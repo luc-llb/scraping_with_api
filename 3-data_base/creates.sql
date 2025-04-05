@@ -1,3 +1,7 @@
+CREATE DATABASE intuitive_care;
+
+USE intuitive_care;
+
 CREATE TABLE operadoras_de_plano_de_saude_ativas (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     registro_ans INT UNSIGNED NOT NULL UNIQUE,
